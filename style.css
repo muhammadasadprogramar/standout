@@ -185,6 +185,16 @@ body {
   transition: 0.5s;
 }
 
+.main > .container > .row > .righ > .bg-img > .btn-arrow > #white {
+  color: #000;
+  font-size: 25px;
+}
+
+.main > .container > .row > .righ > .bg-img > .btn-arrow:hover > #white {
+  color: #fff;
+  transition: 0.3s;
+}
+
 .main > .container > .row > .col-12 > .div {
   display: flex;
   align-items: center;
@@ -204,11 +214,19 @@ body {
   cursor: pointer;
 }
 
+.main > .container > .row > .col-12 > .div > .v-btn > #black {
+  color: #000;
+}
 
 .main > .container > .row > .col-12 > .div > .v-btn:hover {
   background-color: #00a650;
   transition: 0.5s;
   color: #fff;
+}
+
+.main > .container > .row > .col-12 > .div > .v-btn:hover > #black {
+  color: #fff;
+  transition: 0.4s;
 }
 
 .main > .container > .row > .col-12 > .div > p {
